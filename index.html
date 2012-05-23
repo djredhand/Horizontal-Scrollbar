@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>jQuery Horizontal Scrollbars</title>
+		
+		<link rel="stylesheet" type="text/css" href="jquery.horizontal.scroll.css" />
+
+		<link href='http://fonts.googleapis.com/css?family=Dancing+Script:regular,bold&v1' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script src="jquery.horizontal.scroll.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#horiz_container_outer').horizontalScroll();
+			
+			});
+		</script>
+				
+	</head>
+	<body>
+	
+	<h1>Horizontal Scrollbars</h1>	
+	
+	<ul id="horiz_container_outer">
+		<li id="horiz_container_inner">
+			<ul id="horiz_container">
+				<div id="scroll_nav">
+					<ul id="scroll_indicator">
+						<li class="active">1</li>
+						<li>2fgdfgtdgv</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ul><!--end #scroll_indicator-->
+				</div><!--end #scroll_nav-->
+			</ul><!--# end horiz_container-->
+		</li><!-- end #horiz_container_inner-->
+	</ul><!-- end #horiz_container_outer -->	
+	
+	<div id="scrollbar">
+		<a id="left_scroll" class="mouseover_left" href="#"></a>
+		<div id="track">
+		     <div id="dragBar"></div>
+		</div><!--end #track -->
+		<a id="right_scroll" class="mouseover_right" href="#"></a>
+	</div><!--end #scrollbar -->
+					
+</body>
+
+</html>
